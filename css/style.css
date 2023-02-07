@@ -13,6 +13,7 @@ body {
 }
 
 .main_header {
+  font-family: "Bakbak One", cursive;
   min-height: 10vh;
   width: 90%;
   display: grid;
@@ -76,6 +77,7 @@ body {
 }
 
 .main_footer {
+  font-family: "Bakbak One", cursive;
   min-height: 10vh;
   width: 90%;
   display: grid;
