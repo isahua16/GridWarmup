@@ -8,6 +8,8 @@ body {
   display: grid;
   font-family: "Poppins", sans-serif;
   place-items: center;
+  color: #232323;
+  background-color: #fed3b27b;
 }
 
 .main_header {
@@ -28,17 +30,28 @@ body {
   justify-self: end;
 }
 
+.main_nav > a {
+  text-decoration: none;
+  color: #232323;
+}
+
 .main_main {
   min-height: 80vh;
   width: 90%;
 }
 
-img {
+.main_main img {
   width: 12vw;
   min-width: 160px;
   height: 12vw;
   min-height: 160px;
   object-fit: cover;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.main_main p {
+  padding: 12px;
 }
 
 .section_one {
@@ -68,4 +81,9 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   place-items: center;
+}
+
+.main_footer > a {
+  text-decoration: none;
+  color: #232323;
 }
